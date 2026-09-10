@@ -58,7 +58,18 @@ VALUES
 (29, 'Tofu Scramble', 'Scramble de tofu com vegetais e espinafre.', 6.50, 'Sobremesa'),
 (30, 'Salada de Atum', 'Salada de atum com feijão e pimentão.', 8.00, 'Almoço');
 
+INSERT INTO pedidos	(ID, IDCliente, DataHoraPedido, Status)
+VALUES 
+(1, '10', '2023-01-02 08:15:00', 'Em Andamento');
 
+INSERT INTO pedidos	(ID, IDCliente, DataHoraPedido, Status)
+VALUES 
+(2, '3', '2023-01-02 08:45:00', 'Concluído');
+
+INSERT INTO pedidos	(ID, IDCliente, DataHoraPedido, Status)
+VALUES 
+(3, '8', '2023-01-02 08:30:00', 'Entregue'),
+(4, '14', '2023-01-02 10:00:00'. 'Em Andamento'),
 
 
 
